@@ -8,7 +8,7 @@ const OUTPUT_PATH = resolve(__dirname, './../dist/maz-ui.d.ts')
 
 const config = [
   {
-    input: INPUT_TYPES,
+    input: [INPUT_TYPES],
     output: [{ file: OUTPUT_PATH, format: 'es' }],
     plugins: [dts()],
   },
